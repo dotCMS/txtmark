@@ -512,7 +512,7 @@ public interface Decorator
      * </p>
      *
      * <pre>
-     * <code>out.append("<table>");</code>
+     * <code>out.append("&lt;table&gt;");</code>
      * </pre>
      *
      * @param out
@@ -528,7 +528,7 @@ public interface Decorator
      * </p>
      *
      * <pre>
-     * <code>out.append("</table>");</code>
+     * <code>out.append("&lt;/table&gt;");</code>
      * </pre>
      *
      * @param out
@@ -544,7 +544,7 @@ public interface Decorator
      * </p>
      *
      * <pre>
-     * <code>out.append("<tbody>");</code>
+     * <code>out.append("&lt;tbody&gt;");</code>
      * </pre>
      *
      * @param out
@@ -560,7 +560,7 @@ public interface Decorator
      * </p>
      *
      * <pre>
-     * <code>out.append("</tbody>");</code>
+     * <code>out.append("&lt;/tbody&gt;");</code>
      * </pre>
      *
      * @param out
@@ -576,7 +576,7 @@ public interface Decorator
      * </p>
      *
      * <pre>
-     * <code>out.append("<thead>");</code>
+     * <code>out.append("&lt;thead&gt;");</code>
      * </pre>
      *
      * @param out
@@ -592,7 +592,7 @@ public interface Decorator
      * </p>
      *
      * <pre>
-     * <code>out.append("</thead>");</code>
+     * <code>out.append("&lt;/thead&gt;");</code>
      * </pre>
      *
      * @param out
@@ -608,7 +608,7 @@ public interface Decorator
      * </p>
      *
      * <pre>
-     * <code>out.append("<tr>");</code>
+     * <code>out.append("&lt;tr&gt;");</code>
      * </pre>
      *
      * @param out
@@ -624,7 +624,7 @@ public interface Decorator
      * </p>
      *
      * <pre>
-     * <code>out.append("</tr>");</code>
+     * <code>out.append("&lt;/tr&gt;");</code>
      * </pre>
      *
      * @param out
@@ -640,7 +640,7 @@ public interface Decorator
      * </p>
      *
      * <pre>
-     * <code>out.append("<td>");</code>
+     * <code>out.append("&lt;td&gt;");</code>
      * </pre>
      *
      * @param out
@@ -658,7 +658,7 @@ public interface Decorator
      * </p>
      *
      * <pre>
-     * <code>out.append("</td>");</code>
+     * <code>out.append("&lt;/td&gt;");</code>
      * </pre>
      *
      * @param out
@@ -674,7 +674,7 @@ public interface Decorator
      * </p>
      *
      * <pre>
-     * <code>out.append("<th>");</code>
+     * <code>out.append("&lt;th&gt;");</code>
      * </pre>
      *
      * @param out
@@ -692,7 +692,7 @@ public interface Decorator
      * </p>
      *
      * <pre>
-     * <code>out.append("</th>");</code>
+     * <code>out.append("&lt;/th&gt;");</code>
      * </pre>
      *
      * @param out

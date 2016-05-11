@@ -52,7 +52,7 @@ public class TableDef {
 	 * @param text
 	 * @param start
 	 * @param end
-	 * @return the first offset with a non space character. the offset is >= start
+	 * @return the first offset with a non space character. the offset is &lt;= start
 	 */
 	public final static int skipSpacesBackward(String text, int start, int end) {
 		int i = end-1;
